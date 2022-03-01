@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    scrollbar-width: none!important;
+}
+ .row_posters{
+    display: flex;
+     padding: 20px; 
+    
+} 
+
+ .row_image{
+   width: 100%;
+   padding: 20px; 
+      object-fit:contain; 
+   /* max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;  */
+}  
+.row{
+    margin-left: 20px;
+}
+.title{
+    font-size: 13px;
+}
+.details{
+    font-size: 12px;
+}
+.titles{
+    font-size: 20px;
+padding: 0px;
+margin-top: 10px;
+margin-left: 40px;
+}
